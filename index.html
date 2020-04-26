@@ -1,100 +1,115 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html> 
 
+<html lang="en">
   <head>
-
     <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" /> 
     <title> My Resume </title>
 	
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+  
   </head>
 
   <body>
-    <div class="body">
-      <div class="container1">
-
-        <div class="info1">
-          <img id="profile" src= "profilepic.jpg" alt="profile picture"  >
-		  </div>
-        <div class="info 2">
+  <header class="page-header">
+    <h2> Steve Harnaraine </h2> 
+	<p id="freelance"> Freelance Webdeveloper </p>
+  </header>
+  <div class="body"> 
+    <section class="section1">
+        <span id="profile"> 
+     <img src= "profilepic.jpg" alt="profile picture" height="150px" width="150px">
+	    </span>
+		
+	    <div>
           Phone Number: <br> +1721 523****<br>
           <br>
-          Email: <br> <span id="email">stevebharnaraine@gmail.com </span><br><br>Address:<br>
+          Email: <br> <span id="email">stevebharnaraine@gmail.com </span>
+		  <br>
+		  <br>Address:
+		  <br>
           #25 Fort Willem<br> Philipsburg<br>St.Maarten<br><br>
           Skype:<br>
           <span id="skype">@live:.cid.dc94c6a2b05ae8f5</span> 
-		</div>
-
-        <div class="profile">
-          <div class="section">Profile</div> <br>
-          <div class="text"> Trustworthy, hardworking and ever persevering are qualities that I have obtained over the years.
-            Being someone trust worthy is a big deal to me simply because once you lose someone’s trust they will never give you the benefit of doubt again. Being hard working is a staple for anyone that wants to achieve great goals in life and ever persevering is quality anyone with big dreams and goals should have, because even Superman has a weakness and so we must learn to pick ourselves up ,dust ourselves off and keep going.</div>
+		</div> 
+		
+		<div>
+          <div class="name-tag1">Profile</div> <br>
+          <div> Trustworthy, hardworking and ever persevering are qualities that I have obtained over the years.
+            Being someone trust worthy is a big deal to me simply because once you lose someone’s trust they will never give you the benefit of doubt again. 
+			Being hard working is a staple for anyone that wants to achieve great things in life and ever persevering is quality anyone with big dreams and goals should have, so failure isn't the end it's only the beginning of something greater.
+			With that being said we must learn to pick ourselves up ,dust ourselves off and keep going.</div>
         </div>
-
-        <div class="interest">
-          <div class="section">Hobbies</div><br>
-          <div class="icons">
-            <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDMyNy42IDMyNy42IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMjcuNiAzMjcuNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxwYXRoIHN0eWxlPSJmaWxsOiM0QTU2NkU7IiBkPSJNMzAsNjcuOGg2My4ydi05LjZjMC0xMiw5LjYtMjEuNiwyMS42LTIxLjZoOThjMTIsMCwyMS42LDkuNiwyMS42LDIxLjZ2OS42aDYzLjIgIGMxNi40LDAsMzAsMTMuNiwzMCwzMFYyNjFjMCwxNi40LTEzLjYsMzAtMzAsMzBIMzBjLTE2LjQsMC0zMC0xMy42LTMwLTMwVjk3LjhDMCw4MSwxMy42LDY3LjgsMzAsNjcuOHoiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzAwQjU5NDsiIGQ9Ik0yMDkuMiwxMzQuMmMtMTEuNi0xMS42LTI3LjYtMTguNC00NS4yLTE4LjRzLTMzLjYsNy4yLTQ1LjIsMTguOGMtMTEuNiwxMS42LTE4LjgsMjcuNi0xOC44LDQ1LjIgIHM3LjIsMzMuNiwxOC44LDQ1LjJzMjcuNiwxOC44LDQ1LjIsMTguOHMzMy42LTcuMiw0NS4yLTE4LjhjMTEuNi0xMS42LDE4LjgtMjcuNiwxOC44LTQ1LjJDMjI3LjYsMTYxLjgsMjIwLjQsMTQ1LjgsMjA5LjIsMTM0LjJ6ICAgTTE2NCw5OWMyMiwwLDQyLjQsOC44LDU2LjgsMjMuNmMxNC40LDE0LjQsMjMuNiwzNC44LDIzLjYsNTYuOHMtOC44LDQyLjQtMjMuNiw1Ni44Yy0xNC40LDE0LjQtMzQuOCwyMy42LTU2LjgsMjMuNiAgcy00Mi40LTguOC01Ni44LTIzLjZjLTE0LjQtMTQuNC0yMy42LTM0LjgtMjMuNi01Ni44czguOC00Mi40LDIzLjYtNTYuOEMxMjEuNiwxMDcuOCwxNDIsOTksMTY0LDk5eiIvPgo8Zz4KCTxjaXJjbGUgc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIGN4PSIyODAuOCIgY3k9IjExNC4yIiByPSIxNiIvPgoJPGNpcmNsZSBzdHlsZT0iZmlsbDojRkZGRkZGOyIgY3g9IjE2NCIgY3k9IjE3OS40IiByPSI0NCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" width="60" height="60" />
-            <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBpZD0iTGF5ZXJfMSIgaGVpZ2h0PSI1MTJweCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHdpZHRoPSI1MTJweCIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBkPSJtNi41IDU4aDExNXYxMmgtMTE1eiIgZmlsbD0iI2U2ZTdlOCIvPjxwYXRoIGQ9Im0xMDYuODA4IDQxLjg0OWg2YTAgMCAwIDAgMSAwIDB2NDQuM2EwIDAgMCAwIDEgMCAwaC02YTYgNiAwIDAgMSAtNi02di0zMi4zYTYgNiAwIDAgMSA2LTZ6IiBmaWxsPSIjMzk0ODUyIiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgLTEgMjEzLjYxNSAxMjgpIi8+PHBhdGggZD0ibTg4LjgwOCA5Mi43NWg2YTYgNiAwIDAgMCA2LTZ2LTQ1LjVhNiA2IDAgMCAwIC02LTZoLTZ6IiBmaWxsPSIjNTQ2YTc5Ii8+PHBhdGggZD0ibTIxLjE5MiA0MS44NDloNmEwIDAgMCAwIDEgMCAwdjQ0LjNhMCAwIDAgMCAxIDAgMGgtNmE2IDYgMCAwIDEgLTYtNnYtMzIuM2E2IDYgMCAwIDEgNi02eiIgZmlsbD0iIzM5NDg1MiIvPjxwYXRoIGQ9Im0zOS4xOTIgOTIuNzVoLTZhNiA2IDAgMCAxIC02LTZ2LTQ1LjVhNiA2IDAgMCAxIDYtNmg2eiIgZmlsbD0iIzU0NmE3OSIvPjwvc3ZnPgo=" width="60" height="60" />
-            <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDM2OC40IDM2OC40IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzNjguNCAzNjguNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxnPgoJPHBhdGggc3R5bGU9ImZpbGw6IzRBNTY2RTsiIGQ9Ik0zMS42LDUzLjRoMzAyLjhjOC40LDAsMTUuMiw2LjgsMTUuMiwxNS4ydjE5NC44YzAsOC40LTYuOCwxNS4yLTE1LjIsMTUuMkgzMS42ICAgYy04LjQsMC0xNS4yLTYuOC0xNS4yLTE1LjJWNjguMkMxNi40LDYwLjIsMjMuMiw1My40LDMxLjYsNTMuNHoiLz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBkPSJNNTgsNzkuOGgyNDkuNmM4LDAsMTQuOCw2LjQsMTQuOCwxNC44djE0NC44YzAsOC02LjQsMTQuOC0xNC44LDE0LjhINThjLTgsMC0xNC44LTYuNC0xNC44LTE0LjggICBWOTQuMkM0My42LDg2LjIsNTAsNzkuOCw1OCw3OS44eiIvPgoJPHBhdGggc3R5bGU9ImZpbGw6IzNBQkZDODsiIGQ9Ik0wLDI3OC4yaDM2OC40YzAsMjAuNC0xNi44LDM2LjgtMzYuOCwzNi44SDM3LjJDMTYuOCwzMTUsMCwyOTguNiwwLDI3OC4yeiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" width="60" height="60" />
+		
+		<div>
+          <div class="name-tag1">Hobbies</div>
+          <div class="hobbies">
+          <div> <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDMyNy42IDMyNy42IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMjcuNiAzMjcuNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxwYXRoIHN0eWxlPSJmaWxsOiM0QTU2NkU7IiBkPSJNMzAsNjcuOGg2My4ydi05LjZjMC0xMiw5LjYtMjEuNiwyMS42LTIxLjZoOThjMTIsMCwyMS42LDkuNiwyMS42LDIxLjZ2OS42aDYzLjIgIGMxNi40LDAsMzAsMTMuNiwzMCwzMFYyNjFjMCwxNi40LTEzLjYsMzAtMzAsMzBIMzBjLTE2LjQsMC0zMC0xMy42LTMwLTMwVjk3LjhDMCw4MSwxMy42LDY3LjgsMzAsNjcuOHoiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzAwQjU5NDsiIGQ9Ik0yMDkuMiwxMzQuMmMtMTEuNi0xMS42LTI3LjYtMTguNC00NS4yLTE4LjRzLTMzLjYsNy4yLTQ1LjIsMTguOGMtMTEuNiwxMS42LTE4LjgsMjcuNi0xOC44LDQ1LjIgIHM3LjIsMzMuNiwxOC44LDQ1LjJzMjcuNiwxOC44LDQ1LjIsMTguOHMzMy42LTcuMiw0NS4yLTE4LjhjMTEuNi0xMS42LDE4LjgtMjcuNiwxOC44LTQ1LjJDMjI3LjYsMTYxLjgsMjIwLjQsMTQ1LjgsMjA5LjIsMTM0LjJ6ICAgTTE2NCw5OWMyMiwwLDQyLjQsOC44LDU2LjgsMjMuNmMxNC40LDE0LjQsMjMuNiwzNC44LDIzLjYsNTYuOHMtOC44LDQyLjQtMjMuNiw1Ni44Yy0xNC40LDE0LjQtMzQuOCwyMy42LTU2LjgsMjMuNiAgcy00Mi40LTguOC01Ni44LTIzLjZjLTE0LjQtMTQuNC0yMy42LTM0LjgtMjMuNi01Ni44czguOC00Mi40LDIzLjYtNTYuOEMxMjEuNiwxMDcuOCwxNDIsOTksMTY0LDk5eiIvPgo8Zz4KCTxjaXJjbGUgc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIGN4PSIyODAuOCIgY3k9IjExNC4yIiByPSIxNiIvPgoJPGNpcmNsZSBzdHlsZT0iZmlsbDojRkZGRkZGOyIgY3g9IjE2NCIgY3k9IjE3OS40IiByPSI0NCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" width="60" height="60" /></div>
+          <div> <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBpZD0iTGF5ZXJfMSIgaGVpZ2h0PSI1MTJweCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHdpZHRoPSI1MTJweCIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBkPSJtNi41IDU4aDExNXYxMmgtMTE1eiIgZmlsbD0iI2U2ZTdlOCIvPjxwYXRoIGQ9Im0xMDYuODA4IDQxLjg0OWg2YTAgMCAwIDAgMSAwIDB2NDQuM2EwIDAgMCAwIDEgMCAwaC02YTYgNiAwIDAgMSAtNi02di0zMi4zYTYgNiAwIDAgMSA2LTZ6IiBmaWxsPSIjMzk0ODUyIiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgLTEgMjEzLjYxNSAxMjgpIi8+PHBhdGggZD0ibTg4LjgwOCA5Mi43NWg2YTYgNiAwIDAgMCA2LTZ2LTQ1LjVhNiA2IDAgMCAwIC02LTZoLTZ6IiBmaWxsPSIjNTQ2YTc5Ii8+PHBhdGggZD0ibTIxLjE5MiA0MS44NDloNmEwIDAgMCAwIDEgMCAwdjQ0LjNhMCAwIDAgMCAxIDAgMGgtNmE2IDYgMCAwIDEgLTYtNnYtMzIuM2E2IDYgMCAwIDEgNi02eiIgZmlsbD0iIzM5NDg1MiIvPjxwYXRoIGQ9Im0zOS4xOTIgOTIuNzVoLTZhNiA2IDAgMCAxIC02LTZ2LTQ1LjVhNiA2IDAgMCAxIDYtNmg2eiIgZmlsbD0iIzU0NmE3OSIvPjwvc3ZnPgo=" width="60" height="60" /></div> 
+          <div> <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDM2OC40IDM2OC40IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzNjguNCAzNjguNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxnPgoJPHBhdGggc3R5bGU9ImZpbGw6IzRBNTY2RTsiIGQ9Ik0zMS42LDUzLjRoMzAyLjhjOC40LDAsMTUuMiw2LjgsMTUuMiwxNS4ydjE5NC44YzAsOC40LTYuOCwxNS4yLTE1LjIsMTUuMkgzMS42ICAgYy04LjQsMC0xNS4yLTYuOC0xNS4yLTE1LjJWNjguMkMxNi40LDYwLjIsMjMuMiw1My40LDMxLjYsNTMuNHoiLz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBkPSJNNTgsNzkuOGgyNDkuNmM4LDAsMTQuOCw2LjQsMTQuOCwxNC44djE0NC44YzAsOC02LjQsMTQuOC0xNC44LDE0LjhINThjLTgsMC0xNC44LTYuNC0xNC44LTE0LjggICBWOTQuMkM0My42LDg2LjIsNTAsNzkuOCw1OCw3OS44eiIvPgoJPHBhdGggc3R5bGU9ImZpbGw6IzNBQkZDODsiIGQ9Ik0wLDI3OC4yaDM2OC40YzAsMjAuNC0xNi44LDM2LjgtMzYuOCwzNi44SDM3LjJDMTYuOCwzMTUsMCwyOTguNiwwLDI3OC4yeiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" width="60" height="60" /> </div>
           </div>
         </div>
-      </div>
-
-      <div class="container2">
-
-        <div class="1">
-          <h2>Steve Harnaraine</h2>
-          <p id="webdevelop"> Freelance Web Developer</p>
-          <div class="section">Experience</div> <br>
-          <div class="name-tag">Customer Service Tech</div> <br>
-          <div class="name-tag2">Telecommunications Company | 2018 – Present</div> <br>
+		  
+    </section> 
+    
+    <section class="section2">
+        <div>
+          <div class="name-tag1">Experience</div><br>
+          <div class="name-tag2">Customer Service Tech</div>
+          <div class="name-tag3">Telecommunications Company | 2018 – Present</div>
           <div class="text">
             <p>Being a tech for a telecommunications company entails the responsibility of solving whatever difficulties the customer is facing. It can go from to being able to turn on the WIFI to having to re program their router. It also requires you to think on your feet and be patient. It’s given me a basic insight on coding and what it entails to get a simple webpage loaded.</p>
           </div>
-          <div class="name-tag">Sales Clerk</div><br>
-          <div class="name-tag2">A Store | 2014 – 2018 </div><br>
+          <div class="name-tag2">Sales Clerk</div>
+          <div class="name-tag3">A Store | 2014 – 2018 </div>
           <div class="text">
             <p>As a sales clerk you learn about honesty, perspective viewing and above all patience. Sales clerks pretty often end up in situations where you need to be straight forward with their respective client. In that manner you build a trust with each other in the sense that they know you will always give them your most honest advice. Being able to see your customers’ needs from their perspective is a big factor simple because you can then provide them with exactly what their looking for from you. Patience is a huge key factor because quite often a client seems to have a hard time making up their mind and helps to just be patient and let them choose.</p>
           </div>
-        </div>
-
-        <div class="2"> <br>
-          <div class="section">Education</div><br>
-
-          <div class="name-tag">Junior Web Developer</div> <br>
-          <div class="name-tag2">OpenClassrooms | 2020 </div><br>
+		</div>
+		<div>
+		  <div class="name-tag1">Education</div><br>
+          <div class="name-tag2">Junior Web Developer</div> 
+          <div class="name-tag3">OpenClassrooms | 2020 </div>
           <div class="text">
             <p>I obtained my web developer degree through an online course that took about 6 months. I have always been interested in coding so it was more than a perfect fit for me.</p>
           </div>
 
           <br>
-          <div class="name-tag">MBO Diploma</div> <br>
-          <div class="name-tag2">Milton Peters College | 2014 </div> <br>
+          <div class="name-tag2">MBO Diploma</div>
+          <div class="name-tag3">Milton Peters College | 2014 </div>
           <div class="text">
             <p>Through a four year course program I obtained my MBO diploma. It covered basic knowledge of a technical work force and I even had the opportunity to train in the field.</p>
           </div>
-
-          <div class="section">Reference</div>
-
-          <div class="reference">
-            <div id="1">
-              <p> George Blackman<br>
+		</div>  
+		<div>
+	    <div class="name-tag1">Reference </div> 
+		 <div class="reference">
+         <div>
+            <p> George Blackman<br>
                 Customer Service Manager<br>
                 +1721 5432342 <br>
-                george.blackman@telem.org </p><br>
-            </div>
-            <div id="2">
-              <p>Judith White<br>
+                george.blackman@telem.org </p>
+         </div>
+         <div>
+            <p> Judith White<br>
                 CEO <br>
                 +1721 5432343<br>
-                judith.white@telem.org </p> <br>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+                judith.white@telem.org </p>
+         </div>
+		 </div>
+		</div>
+    </section> 
+	</div>
+    
+    <footer class="page-footer" > 
+      
+	 <div class="footer-copyright text-center py-3">© 2020 Copyright:
+       <a href="https://steveharnaraineresume.netlify.app/"> Steve Harnaraine Resume</a>
+     </div>
+	
+    </footer> 
+  
+</body>   
 
-  </html>
+</html> 
